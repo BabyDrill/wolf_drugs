@@ -51,7 +51,7 @@ AddEventHandler('wolf_dev:babyraccolta', function(item, quantity, police, raccol
     local name = GetPlayerName(source)
     local ped = GetPlayerPed(source)
 	local dista1 = GetEntityCoords(ped)
-	local dista2 = vector3(1,1,1)
+	local dista2 = vector3(raccolta)
 	local distanza = #(dista1 - dista2)
 
     if PoliziaMerda >= police then
